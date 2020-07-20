@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio Website</title>
-    <link rel="stylesheet" href="{% static 'css/styles.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/styles1.css' %}" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
@@ -18,7 +18,8 @@
   </head>
 <body style="width: 100%;
 height: 100%;
-background: url({% static 'images/background.jpg' %});
+background: url({% static 'images/bg12.jpg' %});
+/*background-color: black ;*/
 background-repeat: no-repeat;
 background-size: cover;">
 	<nav class="navbar center">
@@ -33,59 +34,7 @@ background-size: cover;">
 <!--css for card design-->
 <div class = "abc">
     <div class="card">
-      <div class="card-image" style = "background: url({% static 'images/img1.jpg' %});border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-  background-size: cover;"></div>
-      <div class="card-text">
-        <span class="date">4 days ago</span>
-        <h2>Post One</h2>
-        <p>Lorem ipsum dolor sit amet consectetur, Ducimus, repudiandae temporibus omnis illum maxime quod deserunt eligendi dolor</p>
-      </div>
-      <div class="card-stats">
-        <div class="stat">
-          <div class="value">4<sup>m</sup></div>
-          <div class="type">read</div>
-        </div>
-        <div class="stat border">
-          <div class="value">5123</div>
-          <div class="type">views</div>
-        </div>
-        <div class="stat">
-          <div class="value">32</div>
-          <div class="type">comments</div>
-        </div>
-      </div>
-    </div>
-
-
-    <div class="card">
-      <div class="card-image" style = "background: url({% static 'images/img2.jpg' %});border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-  background-size: cover;"></div>
-      <div class="card-text card2">
-        <span class="date">1 week ago</span>
-        <h2>Post Two</h2>
-        <p>Adipisicing elit. Ducimus, repudiandae corrupti amet temporibus omnis provident illum maxime quod. Lorem ipsum dolor</p>
-      </div>
-      <div class="card-stats card2">
-        <div class="stat">
-          <div class="value">7<sup>m</sup></div>
-          <div class="type">read</div>
-        </div>
-        <div class="stat border">
-          <div class="value">7152</div>
-          <div class="type">views</div>
-        </div>
-        <div class="stat">
-          <div class="value">21</div>
-          <div class="type">comments</div>
-        </div>
-      </div>
-    </div>
-
-
-    <div class="card">
-        <div class="card-image" style = "background: url({% static 'images/img1.jpg' %});border-top-left-radius: 15px;
+        <div class="card-image" style = "background: url({% static 'images/bandbpic.jpeg' %});border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   background-size: cover;"></div>
         <div class="card-text">
@@ -93,13 +42,13 @@ background-size: cover;">
           <h2>Post Three</h2>
           <p>Repudiandae corrupti amet temporibus omnis provident illum maxime. Ducimus, lorem ipsum dolor adipisicing elit</p>
         </div>
-        <div class="card-stats" style="background: rgb(0, 189, 63);">
+        <div class="card-stats" style="background: rgb(60, 60, 60);">
           <div class="stat">
             <div class="value">5<sup>m</sup></div>
             <div class="type">read</div>
           </div>
-          <div class="stat border" style="border-left: 1px solid rgb(14, 122, 50);
-  border-right: 1px solid rgb(14, 122, 50);">
+          <div class="stat border" style="border-left: 1px solid rgb(255, 255, 255);
+  border-right: 1px solid rgb(255, 255, 255);">
             <div class="value">3021</div>
             <div class="type">views</div>
           </div>
@@ -111,8 +60,8 @@ background-size: cover;">
       </div>
 
 
-      <div class="card">
-        <div class="card-image" style = "background: url({% static 'images/img1.jpg' %});border-top-left-radius: 15px;
+    <div class="card">
+        <div class="card-image" style = "background: url({% static 'images/bandbpic.jpeg' %});border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   background-size: cover;"></div>
         <div class="card-text">
@@ -120,13 +69,13 @@ background-size: cover;">
           <h2>Post Three</h2>
           <p>Repudiandae corrupti amet temporibus omnis provident illum maxime. Ducimus, lorem ipsum dolor adipisicing elit</p>
         </div>
-        <div class="card-stats" style="background: rgb(0, 189, 63);">
+        <div class="card-stats" style="background: rgb(60, 60, 60);">
           <div class="stat">
             <div class="value">5<sup>m</sup></div>
             <div class="type">read</div>
           </div>
-          <div class="stat border" style="border-left: 1px solid rgb(14, 122, 50);
-  border-right: 1px solid rgb(14, 122, 50);">
+          <div class="stat border" style="border-left: 1px solid rgb(255, 255, 255);
+  border-right: 1px solid rgb(255, 255, 255);">
             <div class="value">3021</div>
             <div class="type">views</div>
           </div>
@@ -136,6 +85,34 @@ background-size: cover;">
           </div>
         </div>
       </div>
+
+
+    <!--<div class="card">
+        <div class="card-image" style = "background: url({% static 'images/bandbpic.jpeg' %});border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;"></div>
+        <div class="card-text">
+          <span class="date">3 week ago</span>
+          <h2>Post Three</h2>
+          <p>Repudiandae corrupti amet temporibus omnis provident illum maxime. Ducimus, lorem ipsum dolor adipisicing elit</p>
+        </div>
+        <div class="card-stats" style="background: rgb(60, 60, 60);">
+          <div class="stat">
+            <div class="value">5<sup>m</sup></div>
+            <div class="type">read</div>
+          </div>
+          <div class="stat border" style="border-left: 1px solid rgb(255, 255, 255);
+  border-right: 1px solid rgb(255, 255, 255);">
+            <div class="value">3021</div>
+            <div class="type">views</div>
+          </div>
+          <div class="stat">
+            <div class="value">15</div>
+            <div class="type">comments</div>
+          </div>
+        </div>
+      </div>-->
+
 </div>
 
 

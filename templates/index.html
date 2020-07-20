@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio Website</title>
-    <link rel="stylesheet" href="{% static 'css/styles.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'css/styles1.css' %}" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
@@ -19,13 +19,21 @@
   <body>
     <div class="container">
       <!-- Section 1 -->
-      <section class="section-1 center" id="section-1">
+      <section class="section-1 center" id="section-1" style="  width: 100%;
+  height: 95vh;
+  background: url({% static 'images/bg3.jpg' %}) no-repeat;
+  background-size: cover;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;">
         <h1 class="section-1-heading">
            TARUN GUPTA
         </h1>
         <img src="{% static 'images/whiteshirt.jpeg' %}" alt="tarun da" class="person-img" />
-        <h3 class="person-name">TARUN GUPTA</h3>
-        <a href="#section-3" class="section-1-btn">Projects</a>
+        <h3 class="person-name">ARTIST</h3>
+        <!--<a href="#section-3" class="section-1-btn">Projects</a>-->
       </section>
       <!-- End of Section 1 -->
 
@@ -45,7 +53,7 @@
 
       <!-- Section 2 -->
       <section class="section-2" id="section-2">
-        <h1 class="section-heading section-2-heading">About</h1>
+        <h1 class="section-heading section-2-heading">TARUN GUPTA</h1>
         <img src="{% static 'images/redshirt.jpeg' %}" alt="TARUN gupta" class="person-section-2img" />
         <p class="para2">lorem ipsum dollar sit amet consectetur adipiscing elit</p>
        
